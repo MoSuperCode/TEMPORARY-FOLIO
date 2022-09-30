@@ -1,0 +1,255 @@
+/* Farben: #042A5A, #F4C4C4, #282B29, #7D2222, #DEB873, #D2D2D2, #388883 */
+
+@font-face {
+    font-family: OpenSans ;
+    src: url("/assets/fonts/OpenSans/OpenSans-Regular.ttf");
+}
+@font-face {
+    font-family: Athene ;
+    src: url("/assets/fonts/Athene/Athene.otf");
+}
+
+p, figcaption{
+    font-family: OpenSans;
+}
+h1,h2,h3,span {
+    font-family: Athene;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ====================
+            Header
+=====================*/
+header {
+    background-color:#EFE8D7 ;
+    height: 156.46vh;
+    
+}
+header figure, header figcaption {
+text-align: center;
+}
+
+header section nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #042A5A;
+    padding-top: 2em;
+}
+p.p2 {
+    padding-right: 10em;
+}
+
+header section h1 {
+    font-family: Athene;
+    font-weight: 400;
+    font-size: 10em;
+    Padding-top: 100px;
+    text-align: center;
+    text-decoration:underline 2px #042A5A;
+    text-underline-position: under;
+    color: #042A5A;
+}
+header section h1 span {
+    letter-spacing: -17px;
+    font-weight: 300;
+}
+header section figcaption  {
+font-size: 24px;
+font-weight: 400;
+color: #042A5A;
+}
+header section figcaption span {
+    font-family:Athene;
+    font-weight: 400;
+    font-size: 24px;
+    color: #042A5A;
+}
+/* ======================
+        Main, Section1
+========================*/
+main section.section1 {
+    background-color:#F4C4C4 ;
+    color: #282B29;
+
+}
+main section:nth-of-type(1) div:nth-of-type(1) p {
+padding-top:6.25rem ;
+padding-left:7.1875rem;
+
+}
+
+main section:nth-of-type(1) div:nth-of-type(1) h2{
+font-size: 10rem;
+font-weight: 400;
+}
+main section:nth-of-type(1) article {
+text-align: end;
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+}
+main section:nth-of-type(1) article p.day {
+    font-size: 18px;
+    width: 535px;
+    text-align: left;
+    display: inline-block;
+    margin-right: 95px;
+}
+div.principle{
+    text-align: end;
+    border-bottom: 1px #282B29 solid ;
+    width: 598px;
+    margin-right: 100px;
+}
+main section:nth-of-type(1) article:nth-of-type(2) ol{
+    display: inline-block;
+    width: 598px;
+    margin-right: 100px;
+}
+main section:nth-of-type(1) article:nth-of-type(2) ol li {
+    border-bottom: 1px #282B29 solid ;
+    width: 598px;
+    height: 132px;
+    margin-right: 100px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main section:nth-of-type(1) article:nth-of-type(2) ol li:nth-of-type(3) {
+    height: 114px;
+}
+
+main section:nth-of-type(1) article:nth-of-type(2) ol li p:nth-of-type(2) {
+    width: 428px;
+    font-size: 21px;
+    text-align: left;
+    margin-left: 30px;
+}
+main section:nth-of-type(1) article:nth-of-type(2) ol li p:nth-of-type(3) {
+    width: 97px;
+    font-size: 14px;
+}
+.img {
+    text-align: right;
+    padding-bottom: 6.684375em;
+    margin-right: 106.95px;
+    margin-top: 107.22px;
+
+}
+
+.img img {
+width: 105.84px;
+
+}
+/* ======================
+        Main, Section2
+========================*/
+
+.section2 {
+background-color: #DEB873;
+color:#7D2222 ;
+}
+
+.section2 div {
+text-align: right;
+}
+.section2 div p {
+    padding-top:6.25rem ;
+    padding-right:7.1875rem;
+}
+.section2 div h2 {
+    font-size: 10rem;
+    font-weight: 400;
+}
+div.every {
+    text-align: left;
+    width: 535px;
+    margin-left: 95px;
+    margin-bottom: 190px;
+}
+.section2 article:nth-of-type(2) {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2 article:nth-of-type(2) h3{
+text-align: left;
+font-size: 64px;
+width: 300px;
+line-height: 89.6px;
+position: relative;
+margin-left: 95px;
+}
+.section2 article:nth-of-type(2) img {
+width: 747px;
+margin-right: 120px;
+}
+/* ==================
+        
+===================*/
+h3.kathe {
+text-align: left;
+font-size: 64px;
+width: 300px;
+line-height: 89.6px;
+position: relative;
+}
+
+h3.victor {
+text-align: left;
+font-size: 64px;
+width: 300px;
+line-height: 89.6px;
+position: relative;
+}
+
+h3.bored {
+text-align: left;
+font-size: 64px;
+width: 300px;
+line-height: 89.6px;
+position: relative;
+}
+/* ======================
+        Footer
+========================*/
+footer {
+background-color:#D2D2D2 ;
+color: #388883;
+}
+p.pfoot {
+padding-left: 115px;
+padding-top: 100px;
+}
+footer section h2 {
+    font-size: 10rem;
+    font-weight: 400;
+    width: 592px;
+    line-height: 200px;
+}
+footer div {
+text-align: left;
+display: flex;
+justify-content: center;
+}
+footer div p {
+    width: 500px;
+    font-size: 24px;
+    margin-bottom: 100px;
+}
+footer ul{
+    text-align: end;
+    padding-bottom: 100px;
+    margin-right: 95px;
+}
+footer ul li a {
+    text-decoration: none;
+    color: #388883;
+}
